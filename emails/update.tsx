@@ -175,6 +175,20 @@ export default function AcademicAffairsUpdate({ isEmail = false }: UpdateProps =
               <li>Tips and deadlines for applying to research programs and conferences</li>
               <li>Resources for posters, manuscript writing, IRB submissions, and more</li>
             </ul>
+
+            <Text style={styles.sectionHeading}>Resources</Text>
+            <ul>
+              <li>
+                <Link href="https://belmont.az1.qualtrics.com/jfe/form/SV_e9AljKpVhWLeHki" style={styles.inlineLink}>
+                  Student Travel Reimbursement Form
+                </Link>
+              </li>
+              <li>
+                <Link href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=ew39FqVjrk-fZKmKxAGdfWTnHhXpjpVOn-z6R6A_L9pUMkFENkM4MUoyN1hCUklXTDJQVzdPU1c5Ti4u" style={styles.inlineLink}>
+                  Poster Printer Request Form
+                </Link>
+              </li>
+            </ul>
           </SubunitCard>
 
           {/* Card 4: Residency Director Spotlight */}
